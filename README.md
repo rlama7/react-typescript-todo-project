@@ -123,3 +123,7 @@ b: 2,
 type Z = Data & {
 t: string;
 };
+
+function printName(name: string) {
+console.log(name);
+}
