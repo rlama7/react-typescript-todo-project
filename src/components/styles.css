@@ -44,14 +44,14 @@
   box-shadow: 0 0 5px black;
 }
 
-.todolist {
+.todos {
   display: flex;
   justify-content: space-evenly;
   width: 90%;
   flex-wrap: wrap;
 }
 
-.todolist__single {
+.todos__single {
   display: flex;
   width: 29.5%;
   border-radius: 5px;
@@ -60,14 +60,14 @@
   background-color: blanchedalmond;
 }
 
-.todolist__single--text {
+.todos__single--text {
   flex: 1;
   padding: 5px;
   border: none;
   font-size: 20px;
 }
 
-.todolist__single--text:focus {
+.todos__single--text:focus {
   outline: none;
 }
 
@@ -78,7 +78,7 @@
 }
 
 @media (max-width: 1200px) {
-  .todolist__single {
+  .todos__single {
     width: 40%;
   }
 }
@@ -90,7 +90,7 @@
   .todos {
     width: 95%;
   }
-  .todolist__single {
+  .todos__single {
     width: 100%;
   }
 }
