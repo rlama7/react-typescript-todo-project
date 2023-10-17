@@ -47,7 +47,7 @@
 .container {
   display: flex;
   gap: 16px;
-  width: 95%;
+  width: 90%;
   margin-top: 10px;
   justify-content: space-between;
   align-items: flex-start;
@@ -86,7 +86,9 @@
   border-radius: 5px;
   padding: 20px;
   margin-top: 15px;
-  background-color: blanchedalmond;
+  background-color: #f2faef;
+  /* background-color: #cfd3d1; */
+  /* background-color: blanchedalmond; */
   transition: 0.2s;
 }
 
@@ -136,7 +138,7 @@
     width: 100%;
   } */
   .container {
-    width: 95%;
+    width: 85%;
     flex-direction: column;
   }
 
